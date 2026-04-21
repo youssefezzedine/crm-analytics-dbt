@@ -1,0 +1,41 @@
+[0m17:42:21.442531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C18FBAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C141AF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C309D970>]}
+
+
+============================== 17:42:21.455843 | 30dcd516-f1d1-41ce-89f8-a1c859d63616 ==============================
+[0m17:42:21.455843 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:42:21.455843 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init crm_analytics', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:42:21.468533 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\user\.dbt
+[0m17:42:21.468533 [debug] [MainThread]: Starter project path: C:\Users\user\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m17:42:21.476923 [info ] [MainThread]: 
+Your new dbt project "crm_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:42:21.476923 [info ] [MainThread]: Setting up your profile.
+[0m17:42:32.205802 [info ] [MainThread]: Profile crm_analytics written to C:\Users\user\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m17:42:32.205802 [debug] [MainThread]: Command `dbt init` succeeded at 17:42:32.205802 after 10.87 seconds
+[0m17:42:32.205802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C3AA26C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C3AA3770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F0C3AA2630>]}
+[0m17:42:32.205802 [debug] [MainThread]: Flushing usage events
+[0m17:42:34.502586 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:50:06.438583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E843979430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E844961280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8449619D0>]}
+
+
+============================== 17:50:06.438583 | 1f240d9c-70ff-4e2e-a5cb-3556a47a6cdb ==============================
+[0m17:50:06.438583 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:50:06.438583 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init crm_analytics', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:50:06.446782 [info ] [MainThread]: A project called crm_analytics already exists here.
+[0m17:50:06.446782 [debug] [MainThread]: Command `dbt init` succeeded at 17:50:06.446782 after 0.41 seconds
+[0m17:50:06.446782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E845FEFDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E844FCE960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E844B76840>]}
+[0m17:50:06.452534 [debug] [MainThread]: Flushing usage events
+[0m17:50:09.055082 [debug] [MainThread]: An error was encountered while trying to flush usage events
