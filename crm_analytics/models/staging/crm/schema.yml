@@ -1,0 +1,81 @@
+version: 2
+
+models:
+  - name: stg_crm__cases
+    columns:
+      - name: case_id
+        tests:
+          - unique
+          - not_null
+      - name: channel
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Phone', 'Chat', 'Email']
+      - name: specialist_id
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: stg_crm__phone_interactions
+    columns:
+      - name: interaction_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+      - name: interaction_direction
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Inbound', 'Outbound']
+
+  - name: stg_crm__chat_interactions
+    columns:
+      - name: interaction_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+
+  - name: stg_crm__email_interactions
+    columns:
+      - name: interaction_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+      - name: interaction_direction
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Inbound', 'Outbound']
+
+  - name: stg_crm__surveys_sent
+    columns:
+      - name: survey_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+
+  - name: stg_crm__survey_responses
+    columns:
+      - name: response_id
+        tests:
+          - unique
+          - not_null
+      - name: survey_id
+        tests:
+          - not_null

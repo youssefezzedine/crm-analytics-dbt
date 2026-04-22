@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: fct_interactions
+    columns:
+      - name: interaction_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Phone', 'Chat', 'Email']
+
+  - name: fct_cases
+    columns:
+      - name: case_id
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Phone', 'Chat', 'Email']
+      - name: specialist_id
+        tests:
+          - not_null
+
+  - name: fct_survey_responses
+    columns:
+      - name: response_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+
+  - name: fct_evaluations
+    columns:
+      - name: evaluation_id
+        tests:
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+      - name: specialist_id
+        tests:
+          - not_null

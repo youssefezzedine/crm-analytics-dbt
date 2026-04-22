@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_quality__evaluations
+    columns:
+      - name: evaluation_id
+        tests:
+          - unique
+          - not_null
+      - name: case_id
+        tests:
+          - not_null
+      - name: specialist_id
+        tests:
+          - not_null
+      - name: evaluator_id
+        tests:
+          - not_null
+
+  - name: stg_quality__evaluation_questions
+    columns:
+      - name: question_id
+        tests:
+          - unique
+          - not_null
+      - name: evaluation_id
+        tests:
+          - not_null
+
+  - name: stg_quality__evaluation_types
+    columns:
+      - name: evaluation_type_id
+        tests:
+          - unique
+          - not_null

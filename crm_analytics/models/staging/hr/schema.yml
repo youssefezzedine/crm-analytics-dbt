@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_hr__employees
+    columns:
+      - name: employee_id
+        tests:
+          - unique
+          - not_null
+      - name: email
+        tests:
+          - unique
+          - not_null
+      - name: role
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Specialist', 'Evaluator']

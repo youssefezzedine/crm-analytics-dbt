@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_specialists
+    columns:
+      - name: specialist_id
+        tests:
+          - unique
+          - not_null
+      - name: specialist_name
+        tests:
+          - not_null
+
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
