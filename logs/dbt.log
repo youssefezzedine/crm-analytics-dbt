@@ -39,3 +39,14 @@ Happy modeling!
 [0m17:50:06.446782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E845FEFDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E844FCE960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E844B76840>]}
 [0m17:50:06.452534 [debug] [MainThread]: Flushing usage events
 [0m17:50:09.055082 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:53:45.261873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B760514650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B76026FCB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B760514740>]}
+
+
+============================== 17:53:45.272533 | a76fdca0-353c-4115-819f-af312adc410e ==============================
+[0m17:53:45.272533 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:53:45.272533 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init crm_analytics', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:53:45.277904 [info ] [MainThread]: A project called crm_analytics already exists here.
+[0m17:53:45.277904 [debug] [MainThread]: Command `dbt init` succeeded at 17:53:45.277904 after 0.29 seconds
+[0m17:53:45.286446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7607C6480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B761AFFF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B761ACA810>]}
+[0m17:53:45.286446 [debug] [MainThread]: Flushing usage events
+[0m17:53:46.440628 [debug] [MainThread]: An error was encountered while trying to flush usage events
