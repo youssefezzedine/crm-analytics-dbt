@@ -1,0 +1,107 @@
+version: 2
+
+seeds:
+  - name: raw_cases
+    config:
+      column_types:
+        case_id: varchar
+        channel: varchar
+        status: varchar
+        customer_id: varchar
+        specialist_id: varchar
+        opened_at: timestamp
+        closed_at: timestamp
+
+  - name: raw_phone_interactions
+    config:
+      column_types:
+        interaction_id: varchar
+        case_id: varchar
+        customer_account: varchar
+        customer_phone: varchar
+        specialist_id: varchar
+        interaction_direction: varchar
+        started_at: timestamp
+        ended_at: timestamp
+        duration_seconds: bigint
+
+  - name: raw_chat_interactions
+    config:
+      column_types:
+        interaction_id: varchar
+        case_id: varchar
+        customer_account: varchar
+        specialist_id: varchar
+        started_at: timestamp
+        ended_at: timestamp
+        duration_seconds: bigint
+
+  - name: raw_email_interactions
+    config:
+      column_types:
+        interaction_id: varchar
+        case_id: varchar
+        customer_account: varchar
+        specialist_id: varchar
+        interaction_direction: varchar
+        started_at: timestamp
+        ended_at: timestamp
+        duration_seconds: bigint
+
+  - name: raw_surveys_sent
+    config:
+      column_types:
+        survey_id: varchar
+        case_id: varchar
+        customer_id: varchar
+        specialist_id: varchar
+        sent_at: timestamp
+
+  - name: raw_survey_responses
+    config:
+      column_types:
+        response_id: varchar
+        survey_id: varchar
+        case_id: varchar
+        customer_id: varchar
+        specialist_id: varchar
+        agent_satisfaction_score: integer
+        first_contact_resolution: boolean
+        nps_score: integer
+        responded_at: timestamp
+
+  - name: raw_employees
+    config:
+      column_types:
+        employee_id: varchar
+        full_name: varchar
+        email: varchar
+        department: varchar
+        role: varchar
+        team: varchar
+        hire_date: date
+
+  - name: raw_evaluations
+    config:
+      column_types:
+        evaluation_id: varchar
+        case_id: varchar
+        specialist_id: varchar
+        evaluator_id: varchar
+        overall_rating: float
+        evaluated_at: timestamp
+
+  - name: raw_evaluation_questions
+    config:
+      column_types:
+        question_id: varchar
+        evaluation_id: varchar
+        question_text: varchar
+        rating: float
+
+  - name: raw_evaluation_types
+    config:
+      column_types:
+        evaluation_type_id: varchar
+        evaluation_type_name: varchar
+        description: varchar

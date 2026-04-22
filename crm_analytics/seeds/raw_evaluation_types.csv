@@ -1,0 +1,3 @@
+evaluation_type_id,evaluation_type_name,description
+EVLTYP001,Standard Call Review,Full review of phone interaction
+EVLTYP002,Email Quality Check,Review of email handling

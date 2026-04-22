@@ -1,0 +1,3 @@
+interaction_id,case_id,customer_account,customer_phone,specialist_id,interaction_direction,started_at,ended_at,duration_seconds
+PHN001,CASE001,CUST001,+21600000001,EMP001,Inbound,2024-01-10 09:00:00,2024-01-10 09:30:00,1800
+PHN002,CASE004,CUST001,+21600000001,EMP001,Outbound,2024-01-13 14:00:00,2024-01-13 14:45:00,2700

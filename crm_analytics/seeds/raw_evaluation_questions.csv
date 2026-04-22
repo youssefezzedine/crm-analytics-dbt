@@ -1,0 +1,5 @@
+question_id,evaluation_id,question_text,rating
+QST001,EVL001,Did the specialist follow the correct process?,5
+QST002,EVL001,Was the customer handled professionally?,4
+QST003,EVL002,Did the specialist follow the correct process?,4
+QST004,EVL002,Was the customer handled professionally?,3.5

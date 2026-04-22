@@ -1,0 +1,3 @@
+evaluation_id,case_id,specialist_id,evaluator_id,overall_rating,evaluated_at
+EVL001,CASE001,EMP001,EMP004,4.5,2024-01-15 10:00:00
+EVL002,CASE003,EMP003,EMP005,3.8,2024-01-16 11:00:00

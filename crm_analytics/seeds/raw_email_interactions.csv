@@ -1,0 +1,3 @@
+interaction_id,case_id,customer_account,specialist_id,interaction_direction,started_at,ended_at,duration_seconds
+EML001,CASE003,CUST003,EMP003,Inbound,2024-01-12 08:00:00,2024-01-12 08:05:00,300
+EML002,CASE003,CUST003,EMP003,Outbound,2024-01-12 15:00:00,2024-01-12 15:10:00,600  

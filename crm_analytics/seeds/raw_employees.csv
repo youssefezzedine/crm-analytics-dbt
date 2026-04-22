@@ -1,0 +1,6 @@
+employee_id,full_name,email,department,role,team,hire_date
+EMP001,Youssef Ezzedine,youssef@company.com,Customer Service,Specialist,Team A,2021-01-15
+EMP002,Sarah Johnson,sarah@company.com,Customer Service,Specialist,Team A,2020-03-10
+EMP003,Ahmed Karim,ahmed@company.com,Customer Service,Specialist,Team B,2021-06-01
+EMP004,Lisa Wong,lisa@company.com,Service Quality,Evaluator,QA Team,2019-11-20
+EMP005,Marc Dubois,marc@company.com,Service Quality,Evaluator,QA Team,2020-08-15
